@@ -1,0 +1,219 @@
+---
+title: <small>An introduction to digital open <br>research in clinical psychology</small>
+author: <small>Matthias Weiler</small>
+date: <small>25.04.2018</small>
+output:
+  revealjs::revealjs_presentation:
+    theme: black
+    center: TRUE
+    self_contained: FALSE
+    incremental: TRUE
+    reveal_plugins: ["chalkboard"]
+    reveal_options:
+      chalkboard: 
+      readonly: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# <small> What we did last week</small>
+
+----
+
+We did a *_very_* short Q & A
+
+----
+
+There was only one question:  
+*How do I get my data?*
+
+---
+
+![http://i0.kym-cdn.com/photos/images/newsfeed/000/112/480/OpoQQ.jpg?1302279568](img/seriously.jpg)  
+Seriously?
+
+# <small>A quick reminder of<br>your tasks for the <br>last couple of weeks...</small>
+
+----
+
+*Add every member of this course as a<br>contributor of your project in the OSF*
+
+----
+
+```{r}
+library(ggplot2)
+library(tibble)
+tbl <- tibble(answer = c("yes", "no"), count = c(2, 2))
+ggplot(data = tbl, aes(x = answer, y = count, fill = answer)) +
+  geom_bar(stat = "identity") +
+  labs(x = NULL, y = NULL, title  = "Add members of this course as contributors") +
+  theme_classic()
+
+```
+
+----
+
+*Give "Read + Write" permissions <br>to your team members*
+
+----
+
+```{r}
+library(ggplot2)
+library(tibble)
+tbl <- tibble(answer = c("yes", "no"), count = c(3, 1))
+ggplot(data = tbl, aes(x = answer, y = count, fill = answer)) +
+  geom_bar(stat = "identity") +
+  labs(x = NULL, y = NULL, title  = "Give 'Read + Write' permissions to your team members") +
+  theme_classic()
+
+```
+
+----
+
+*Give "Read" permissions <br>to the rest of the group*
+
+----
+
+```{r}
+library(ggplot2)
+library(tibble)
+tbl <- tibble(answer = c("yes", "no"), count = c(1, 3))
+ggplot(data = tbl, aes(x = answer, y = count, fill = answer)) +
+  geom_bar(stat = "identity") +
+  labs(x = NULL, y = NULL, title  = "Give 'Read' permissions to the rest of the group") +
+  theme_classic()
+
+```
+
+----
+
+*Only list your team members<br>as "Bibliographic Contributors"*
+
+----
+
+```{r}
+library(ggplot2)
+library(tibble)
+tbl <- tibble(answer = c("yes", "no"), count = c(3, 1))
+ggplot(data = tbl, aes(x = answer, y = count, fill = answer)) +
+  geom_bar(stat = "identity") +
+  labs(x = NULL, y = NULL, title  = "Only list team members as 'Bibliographic Contributors'") +
+  theme_classic()
+
+```
+
+----
+
+*Change the name of your project to<br>something that reflects your research*
+
+----
+
+```{r}
+library(ggplot2)
+library(tibble)
+tbl <- tibble(answer = c("yes", "no"), count = c(3, 1))
+ggplot(data = tbl, aes(x = answer, y = count, fill = answer)) +
+  geom_bar(stat = "identity") +
+  labs(x = NULL, y = NULL, title  = "Change the name of your project") +
+  theme_classic()
+
+```
+
+----
+
+*After that, register your project in the OSF*
+
+----
+
+```{r}
+library(ggplot2)
+library(tibble)
+tbl <- tibble(answer = c("yes", "no"), count = c(1, 3))
+ggplot(data = tbl, aes(x = answer, y = count, fill = answer)) +
+  geom_bar(stat = "identity") +
+  labs(x = NULL, y = NULL, title  = "Register your project in the OSF") +
+  theme_classic()
+
+```
+
+----
+
+*Check your experiments <br>and invite participants*
+
+----
+
+???
+
+----
+
+*Start data collection*
+
+----
+
+```{r}
+library(ggplot2)
+library(tibble)
+tbl <- tibble(group = c("A", "B", "C", "D"), count = c(17, 8, 1, 7))
+ggplot(data = tbl, aes(x = group, y = count, fill = group)) +
+  geom_bar(stat = "identity") +
+  labs(x = NULL, y = NULL, title  = "Data collection") +
+  theme_classic()
+
+```
+
+----
+
+# <small>We should probably<br> do some more Q & A...</small>
+
+----
+
+![https://media.makeameme.org/created/If-you-ask-cp1weq.jpg](img/questions_be_great.jpg) 
+
+# <small>I have some questions</small>
+
+----
+
+How does 
+
+# <small>Preview: next week</small>
+
+----
+
+On Wednesday, 2nd of May
+
+----
+
+"Present your project results"
+
+----
+
+Review this course
+
+# <small>Homework</small>
+
+----
+
+Prepare your posters for <br>
+the final presentation
+
+----
+
+Posters should be in landscape format
+
+----
+
+Save your posters as pdf file
+
+----
+
+Send me an email with your poster by May 1
+
+----
+
+Prepare a short presentation for your poster
+
+# <small>Any questions?</small>
+
+# <small>Thank you for your attention</small>
