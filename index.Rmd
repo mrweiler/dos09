@@ -163,8 +163,6 @@ ggplot(data = tbl, aes(x = group, y = count, fill = group)) +
 
 ```
 
-----
-
 # <small>We should probably<br> do some more Q & A...</small>
 
 ----
@@ -175,7 +173,23 @@ ggplot(data = tbl, aes(x = group, y = count, fill = group)) +
 
 ----
 
-How does 
+How is the team work going?
+
+----
+
+Do you know how to get your data?
+
+----
+
+Do you know how to analyze your data?
+
+----
+
+Do you know how to design your poster?
+
+----
+
+Do you know how to present your results?
 
 # <small>Preview: next week</small>
 
