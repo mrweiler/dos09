@@ -29,11 +29,6 @@ We did a *_very_* short Q & A
 There was only one question:  
 *How do I get my data?*
 
----
-
-![http://i0.kym-cdn.com/photos/images/newsfeed/000/112/480/OpoQQ.jpg?1302279568](img/seriously.jpg)  
-Seriously?
-
 # <small>A quick reminder of<br>your tasks for the <br>last couple of weeks...</small>
 
 ----
@@ -163,11 +158,7 @@ ggplot(data = tbl, aes(x = group, y = count, fill = group)) +
 
 ```
 
-# <small>We should probably<br> do some more Q & A...</small>
-
-----
-
-![https://media.makeameme.org/created/If-you-ask-cp1weq.jpg](img/questions_be_great.jpg) 
+# <small>We should probably do <br>Some more Q & A</small>
 
 # <small>I have some questions</small>
 
